@@ -1,0 +1,13 @@
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+$primary: #0029ff;
+$primary-invert: findColorInvert($primary);
+
+@import 'bulma/bulma';
+@import 'bulma-extensions/bulma-pageloader/dist/css/bulma-pageloader.sass';
+
+body {
+  margin: 0;
+  padding: 0;
+}
